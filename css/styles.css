@@ -264,10 +264,12 @@ body{
 .right_inner{
 	padding: 30px;
 	color: #292b2f;
+	margin-top: 30px;
 }
 
 .right_inner .education{
 	margin-top: 30px;
+	margin-bottom: 50px;
 }
 
 .right_inner .li_wrap{
@@ -322,6 +324,9 @@ body{
 	width: 2px;
 	height: 90%;
 	background: #2fa793;
+}
+.exp{
+	margin-bottom: 50px;
 }
 .exp .li_wrap .info_obj{
 	width: calc(100%  - 125px);
