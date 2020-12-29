@@ -214,6 +214,11 @@ body{
 .socical .li_wrap .text{
 	margin-top: 5px;
 }
+.socical .li_wrap .text a, .socical .li_wrap .iconFB a{
+	margin-top: 5px;
+	color: #e7e7e7;
+	text-decoration: none;
+}
 
 .socical .li_wrap{
 	border: 2px solid #fff;
@@ -228,11 +233,32 @@ body{
 	background: #fff;
 }
 
-.socical .li_wrap:hover .icon,
-.socical .li_wrap:hover .text{
-	color: #2fa793;
+.socical .li_wrap:hover .text a,
+.socical .li_wrap:hover .text a{
+	color: #218f7d;
 }
-
+.socical .li_wrap:hover .iconIns a i{
+	color: #fa6b6b;
+}
+.socical .li_wrap:hover .iconGit a i{
+	color: #1b1a1a;
+}
+.socical .li_wrap .iconFB a i{
+	color: #3371d4;
+	font-size: 30px;
+}
+.socical .li_wrap .iconTW a i{
+	color: #1DA1F2;
+	font-size: 30px;
+}
+.socical .li_wrap .iconIns a i{
+	color: rgb(240, 240, 240);
+	font-size: 30px;
+}
+.socical .li_wrap .iconGit a i{
+	color: rgb(240, 240, 240);
+	font-size: 30px;
+}
 .header{
 	background: #292b2f;
 	padding: 15px 30px;
