@@ -368,6 +368,11 @@ body{
 	height: 90%;
 	background: #2fa793;
 }
+.info_obj a{
+	text-decoration: none;
+	color: #2fa793;
+	font-size: 14px;
+}
 /* ===== CONTACT =====*/
 .section-title{
 	font-size: 24px;
